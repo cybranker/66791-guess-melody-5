@@ -63,7 +63,7 @@ const GameScreen = (props) => {
 
 GameScreen.propTypes = {
   questions: PropTypes.arrayOf(
-    PropTypes.oneOfType([artistQuestionProp, genreQuestionProp]).isRequired
+      PropTypes.oneOfType([artistQuestionProp, genreQuestionProp]).isRequired
   ),
   step: PropTypes.number.isRequired,
   onUserAnswer: PropTypes.func.isRequired,
